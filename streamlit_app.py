@@ -121,6 +121,12 @@ if app_mode == '01 Introduction':
 
 if app_mode == '02 Data visualization':
     st.title("Data Visualization")
+
+    st.title("Visualisation in Looker Studio ")
+    looker_url = "https://lookerstudio.google.com/embed/reporting/8661ccb3-712d-45a7-b2c4-3a0468114c5a/page/lIl5E"
+
+    # Embed Looker Dashboard
+    st.components.v1.iframe(looker_url, width=900, height=600)
     
     st.markdown("### CO2 Emissions vs Fuel Consumption Comb (L/100 km)")
 
@@ -208,13 +214,7 @@ if app_mode == '02 Data visualization':
     #scatter plot to show the miles per gallon against the CO2 Emissions   the column names are Fuel Consumption Comb (L/100 km) and CO2 Emissions(g/km)
     
 
-    st.title("Visualisation in Looker Studio ")
 
-    # Replace with your actual Looker Studio Embed URL
-    looker_url = "https://lookerstudio.google.com/embed/reporting/8661ccb3-712d-45a7-b2c4-3a0468114c5a/page/lIl5E"
-
-    # Embed Looker Dashboard
-    st.components.v1.iframe(looker_url, width=900, height=600)
 
 
 
