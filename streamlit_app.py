@@ -7,7 +7,7 @@ import numpy as np
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_absolute_error
+from sklearn.metrics import mean_absolute_errori
 
 from PIL import Image
 
@@ -34,7 +34,7 @@ df = df1.replace({"Fuel Type": {"Z": "Regular gasoline", "D": "Diesel", "X": "Pr
 if app_mode == '01 Introduction':
 
 
-    image = Image.open("Intro_page_car.jpg")  # Replace with your image filename
+    image = Image.open("intro_page_car.jpg")  # Replace with your image filename
 
     st.image(image, use_container_width=True)
 
