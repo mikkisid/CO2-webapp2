@@ -126,7 +126,7 @@ if app_mode == '02 Data visualization':
     looker_url = "https://lookerstudio.google.com/embed/reporting/8661ccb3-712d-45a7-b2c4-3a0468114c5a/page/lIl5E"
 
     # Embed Looker Dashboard
-    st.components.v1.iframe(looker_url, width=1200, height=60)
+    st.components.v1.iframe(looker_url, width=1000, height=60)
     
     st.markdown("### CO2 Emissions vs Fuel Consumption Comb (L/100 km)")
 
