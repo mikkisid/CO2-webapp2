@@ -34,7 +34,7 @@ df = df1.replace({"Fuel Type": {"Z": "Regular gasoline", "D": "Diesel", "X": "Pr
 if app_mode == '01 Introduction':
 
 
-    image = Image.open("intro_page_car.jpg")  # Replace with your image filename
+    image = Image.open("q.jpg")  
 
     st.image(image, use_container_width=True)
 
