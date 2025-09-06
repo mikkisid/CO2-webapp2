@@ -25,7 +25,7 @@ This Streamlit web application analyzes vehicle CO₂ emissions and fuel consump
 - **Python Libraries:** 
   - [Streamlit](https://streamlit.io/) for the interactive web app.
   - [pandas](https://pandas.pydata.org/) and [NumPy](https://numpy.org/) for data manipulation.
-  - [Matplotlib](https://matplotlib.org/) and [Seaborn](https://seaborn.pydata.org/) for data visualization.
+  - [Matplotlib](https://matplotlib.org/) , [Looker Studio](https://lookerstudio.google.com/) and [Seaborn](https://seaborn.pydata.org/) for data visualization.
   - [scikit-learn](https://scikit-learn.org/) for linear regression and model evaluation.
   - [Pillow](https://pillow.readthedocs.io/) for image processing.
 - **Google Looker Studio:** For embedded dashboard.
